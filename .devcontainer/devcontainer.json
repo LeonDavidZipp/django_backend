@@ -1,0 +1,12 @@
+{
+    "dockerFile": "Dockerfile",
+    // "features": {
+    //     "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    // },
+    // "postCreateCommand": "zsh",
+    "customizations": {
+        "vscode": {
+            "extensions": ["github.copilot", "esbenp.prettier-vscode"]
+        }
+    }
+}
