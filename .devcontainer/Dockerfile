@@ -1,4 +1,4 @@
-FROM python:3.9-bookworm
+FROM python:3.9-bullseye
 LABEL maintainer="lzipp"
 
 ENV PYTHONUNBUFFERED 1
