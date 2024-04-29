@@ -8,7 +8,7 @@
 - Create a new subapp:
   docker-compose run --rm app sh -c "python manage.py startapp 'appname'"
 - Run tests:
-  docker-compose run --rm app sh -c "python manage.py tests"
+  docker-compose run --rm app sh -c "python manage.py test"
 
 ## superuser
 - email: leondavidzipp@gmx.de
