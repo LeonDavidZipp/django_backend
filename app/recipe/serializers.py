@@ -23,4 +23,4 @@ class RecipeDetailSerializer(RecipeSerializer):
     """
 
     class Meta(RecipeSerializer.Meta):
-        field = RecipeSerializer.Meta.fields + ['description']
+        fields = RecipeSerializer.Meta.fields + ['description']
